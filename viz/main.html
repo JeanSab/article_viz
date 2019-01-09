@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<body>
+
+
+<script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+<script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+<script>
+
+d3.json("http://127.0.0.1:5000/404",  {mode: "cors"}).then(function(text) {
+  console.log(text); // Hello, world!
+});
+
+/*var response = d3.request("http://127.0.0.1:5000/")
+    //.header("X-Requested-With", "XMLHttpRequest")
+    //.header("Access-Control-Allow-Origin", "*")
+    .mimeType("text/html; charset=utf-8")
+    .get()
+    .response(function(xhr) { return xhr.responseText; });
+
+  console.log(response);*/
+
+</script>
+
+</body>
