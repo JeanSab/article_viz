@@ -2,6 +2,14 @@ import json
 from datetime import datetime
 import newsOutlet
 
+
+class NewsOutlet():
+
+    def __init__(self, name, url):
+        self.name = name
+        self.url = url
+
+
 class Article():
 
     def __init__(self, title, link, date, newsOutlet, tweets={}):
@@ -22,4 +30,4 @@ class Article():
 
         tweets = {}
         for t in data["tweets"]
-            tweets[d["id"]] =
+            tweets[d["id"]] = t
