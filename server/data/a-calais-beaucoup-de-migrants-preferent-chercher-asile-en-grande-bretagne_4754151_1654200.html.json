@@ -1,0 +1,611 @@
+{
+  "date": "2015-09-12 00:00:00",
+  "link": "http://www.lemonde.fr/immigration-et-diversite/article/2015/09/12/a-calais-beaucoup-de-migrants-preferent-chercher-asile-en-grande-bretagne_4754151_1654200.html",
+  "title": "A Calais, beaucoup de migrants pr\u00e9f\u00e8rent chercher asile en Grande-Bretagne",
+  "tweet_ids": [
+    "643322673376985090",
+    "642948193731407872",
+    "642706632208699392",
+    "642692957947170816"
+  ],
+  "tweets": [
+    {
+      "contributors": null,
+      "coordinates": null,
+      "created_at": "Mon Sep 14 07:17:32 +0000 2015",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+          {
+            "display_url": "lemonde.fr/immigration-et\u2026",
+            "expanded_url": "http://www.lemonde.fr/immigration-et-diversite/article/2015/09/12/a-calais-beaucoup-de-migrants-preferent-chercher-asile-en-grande-bretagne_4754151_1654200.html",
+            "indices": [
+              89,
+              111
+            ],
+            "url": "http://t.co/TEycb0X0rd"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id": 24744541,
+            "id_str": "24744541",
+            "indices": [
+              3,
+              13
+            ],
+            "name": "Le Monde",
+            "screen_name": "lemondefr"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 643322673376985090,
+      "id_str": "643322673376985090",
+      "in_reply_to_screen_name": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "is_quote_status": false,
+      "lang": "fr",
+      "place": null,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "retweet_count": 0,
+      "retweeted": false,
+      "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+      "text": "RT @lemondefr A Calais, beaucoup de migrants pr\u00e9f\u00e8rent chercher asile en Grande-Bretagne http://t.co/TEycb0X0rd",
+      "truncated": false,
+      "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue May 31 21:57:28 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "J'aime la politique, la culture, le sport, Marseille, Paris, les voyages. #FH2012 #EnMarche2017 #OuiAuxReformes Aviation civile, management s\u00e9curit\u00e9.",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {
+            "urls": [
+              {
+                "display_url": "pierrerosellini.tumblr.com",
+                "expanded_url": "http://pierrerosellini.tumblr.com/",
+                "indices": [
+                  0,
+                  23
+                ],
+                "url": "https://t.co/qoxq9XulyK"
+              }
+            ]
+          }
+        },
+        "favourites_count": 62,
+        "follow_request_sent": false,
+        "followers_count": 4444,
+        "following": false,
+        "friends_count": 1721,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 308721132,
+        "id_str": "308721132",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "fr",
+        "listed_count": 84,
+        "location": "Paris",
+        "name": "PierreRosellini \uf8ff",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/308721132/1528056933",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3257431974/72645840f22b4c9f4ae86084bc145d87_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3257431974/72645840f22b4c9f4ae86084bc145d87_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "pierrerosellini",
+        "statuses_count": 47618,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/qoxq9XulyK",
+        "utc_offset": null,
+        "verified": false
+      }
+    },
+    {
+      "contributors": null,
+      "coordinates": null,
+      "created_at": "Sun Sep 13 06:29:29 +0000 2015",
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.twitter.com/rG9tnEMB1O",
+            "expanded_url": "https://twitter.com/Olivier_Timon/status/642948193731407872/photo/1",
+            "id": 642948192552787968,
+            "id_str": "642948192552787968",
+            "indices": [
+              98,
+              120
+            ],
+            "media_url": "http://pbs.twimg.com/media/COw1-YIWoAAIgDp.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/COw1-YIWoAAIgDp.jpg",
+            "sizes": {
+              "large": {
+                "h": 1198,
+                "resize": "fit",
+                "w": 1574
+              },
+              "medium": {
+                "h": 913,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 518,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "http://t.co/rG9tnEMB1O"
+          }
+        ],
+        "symbols": [],
+        "urls": [
+          {
+            "display_url": "lemonde.fr/immigration-et\u2026",
+            "expanded_url": "http://www.lemonde.fr/immigration-et-diversite/article/2015/09/12/a-calais-beaucoup-de-migrants-preferent-chercher-asile-en-grande-bretagne_4754151_1654200.html",
+            "indices": [
+              75,
+              97
+            ],
+            "url": "http://t.co/oAHvmdkX8g"
+          }
+        ],
+        "user_mentions": []
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/rG9tnEMB1O",
+            "expanded_url": "https://twitter.com/Olivier_Timon/status/642948193731407872/photo/1",
+            "id": 642948192552787968,
+            "id_str": "642948192552787968",
+            "indices": [
+              98,
+              120
+            ],
+            "media_url": "http://pbs.twimg.com/media/COw1-YIWoAAIgDp.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/COw1-YIWoAAIgDp.jpg",
+            "sizes": {
+              "large": {
+                "h": 1198,
+                "resize": "fit",
+                "w": 1574
+              },
+              "medium": {
+                "h": 913,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 518,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "http://t.co/rG9tnEMB1O"
+          },
+          {
+            "display_url": "pic.twitter.com/rG9tnEMB1O",
+            "expanded_url": "https://twitter.com/Olivier_Timon/status/642948193731407872/photo/1",
+            "id": 642948191730696192,
+            "id_str": "642948191730696192",
+            "indices": [
+              98,
+              120
+            ],
+            "media_url": "http://pbs.twimg.com/media/COw1-VEWgAAhhYq.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/COw1-VEWgAAhhYq.jpg",
+            "sizes": {
+              "large": {
+                "h": 1192,
+                "resize": "fit",
+                "w": 1494
+              },
+              "medium": {
+                "h": 957,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 543,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "http://t.co/rG9tnEMB1O"
+          },
+          {
+            "display_url": "pic.twitter.com/rG9tnEMB1O",
+            "expanded_url": "https://twitter.com/Olivier_Timon/status/642948193731407872/photo/1",
+            "id": 642948192686993408,
+            "id_str": "642948192686993408",
+            "indices": [
+              98,
+              120
+            ],
+            "media_url": "http://pbs.twimg.com/media/COw1-YoWcAAdKo0.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/COw1-YoWcAAdKo0.jpg",
+            "sizes": {
+              "large": {
+                "h": 1214,
+                "resize": "fit",
+                "w": 1514
+              },
+              "medium": {
+                "h": 962,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 545,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "http://t.co/rG9tnEMB1O"
+          },
+          {
+            "display_url": "pic.twitter.com/rG9tnEMB1O",
+            "expanded_url": "https://twitter.com/Olivier_Timon/status/642948193731407872/photo/1",
+            "id": 642948191583911936,
+            "id_str": "642948191583911936",
+            "indices": [
+              98,
+              120
+            ],
+            "media_url": "http://pbs.twimg.com/media/COw1-UhWwAA553F.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/COw1-UhWwAA553F.jpg",
+            "sizes": {
+              "large": {
+                "h": 902,
+                "resize": "fit",
+                "w": 1502
+              },
+              "medium": {
+                "h": 721,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 408,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "http://t.co/rG9tnEMB1O"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 642948193731407872,
+      "id_str": "642948193731407872",
+      "in_reply_to_screen_name": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "is_quote_status": false,
+      "lang": "fr",
+      "place": null,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "retweet_count": 0,
+      "retweeted": false,
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "text": "A Calais, beaucoup de migrants pr\u00e9f\u00e8rent chercher asile en Grande-Bretagne http://t.co/oAHvmdkX8g http://t.co/rG9tnEMB1O",
+      "truncated": false,
+      "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 26 23:57:55 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "#RefugeesWelcome",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "favourites_count": 15085,
+        "follow_request_sent": false,
+        "followers_count": 2135,
+        "following": false,
+        "friends_count": 631,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 475361997,
+        "id_str": "475361997",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "fr",
+        "listed_count": 68,
+        "location": "",
+        "name": "Olivier Timon",
+        "notifications": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/475361997/1389204832",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2920642917/c98c4a29253eca1da354a7cd74324922_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2920642917/c98c4a29253eca1da354a7cd74324922_normal.jpeg",
+        "profile_link_color": "2FC2EF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Olivier_Timon",
+        "statuses_count": 131122,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+      }
+    },
+    {
+      "contributors": null,
+      "coordinates": null,
+      "created_at": "Sat Sep 12 14:29:36 +0000 2015",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+          {
+            "display_url": "lemonde.fr/immigration-et\u2026",
+            "expanded_url": "http://www.lemonde.fr/immigration-et-diversite/article/2015/09/12/a-calais-beaucoup-de-migrants-preferent-chercher-asile-en-grande-bretagne_4754151_1654200.html",
+            "indices": [
+              89,
+              111
+            ],
+            "url": "http://t.co/MNPFrZYQ26"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id": 24744541,
+            "id_str": "24744541",
+            "indices": [
+              3,
+              13
+            ],
+            "name": "Le Monde",
+            "screen_name": "lemondefr"
+          }
+        ]
+      },
+      "favorite_count": 0,
+      "favorited": false,
+      "geo": null,
+      "id": 642706632208699392,
+      "id_str": "642706632208699392",
+      "in_reply_to_screen_name": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "is_quote_status": false,
+      "lang": "fr",
+      "place": null,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "retweet_count": 0,
+      "retweeted": false,
+      "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+      "text": "RT @lemondefr A Calais, beaucoup de migrants pr\u00e9f\u00e8rent chercher asile en Grande-Bretagne http://t.co/MNPFrZYQ26",
+      "truncated": false,
+      "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Oct 27 12:07:28 +0000 2007",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Journaliste Soci\u00e9t\u00e9 #LeMonde ex #Lib\u00e9ration #Causette / Co-auteure de La Guerre Invisible http://t.co/vgPNt7SjQR",
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "display_url": "bit.ly/1SmZrOm",
+                "expanded_url": "http://bit.ly/1SmZrOm",
+                "indices": [
+                  90,
+                  112
+                ],
+                "url": "http://t.co/vgPNt7SjQR"
+              }
+            ]
+          }
+        },
+        "favourites_count": 576,
+        "follow_request_sent": false,
+        "followers_count": 4209,
+        "following": false,
+        "friends_count": 944,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 9732832,
+        "id_str": "9732832",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "fr",
+        "listed_count": 100,
+        "location": "",
+        "name": "Julia Pascual",
+        "notifications": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/9732832/1393326126",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/438267253478273024/JR3gt5HI_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/438267253478273024/JR3gt5HI_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "JuliaPascualita",
+        "statuses_count": 3323,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+      }
+    },
+    {
+      "contributors": null,
+      "coordinates": null,
+      "created_at": "Sat Sep 12 13:35:16 +0000 2015",
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+          {
+            "display_url": "lemonde.fr/tiny/4754151/",
+            "expanded_url": "http://www.lemonde.fr/tiny/4754151/",
+            "indices": [
+              117,
+              139
+            ],
+            "url": "http://t.co/0RjQKogwcV"
+          }
+        ],
+        "user_mentions": [
+          {
+            "id": 24744541,
+            "id_str": "24744541",
+            "indices": [
+              60,
+              70
+            ],
+            "name": "Le Monde",
+            "screen_name": "lemondefr"
+          }
+        ]
+      },
+      "favorite_count": 1,
+      "favorited": false,
+      "geo": null,
+      "id": 642692957947170816,
+      "id_str": "642692957947170816",
+      "in_reply_to_screen_name": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "is_quote_status": false,
+      "lang": "fr",
+      "place": null,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "retweet_count": 1,
+      "retweeted": false,
+      "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+      "text": "\"On nous a dit ...qu'en France, il n'y a pas de travail\"\nRT @lemondefr Calais, derni\u00e8re \u00e9tape pour quitter la\u00a0France http://t.co/0RjQKogwcV",
+      "truncated": false,
+      "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 28 17:18:23 +0000 2011",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Gaulliste romantique. Ancien Maire de Gr\u00e9oux les Bains. Pharmacien Biologiste retrait\u00e9. Deux fois heureux papa et six fois heureux grand-p\u00e8re.",
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "favourites_count": 95,
+        "follow_request_sent": false,
+        "followers_count": 3905,
+        "following": false,
+        "friends_count": 4978,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 273524713,
+        "id_str": "273524713",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": "fr",
+        "listed_count": 137,
+        "location": "",
+        "name": "VIAL Pierre",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/273524713/1434998044",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/866165670534422529/MmwSDa3y_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/866165670534422529/MmwSDa3y_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "piervial",
+        "statuses_count": 51893,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+      }
+    }
+  ]
+}
