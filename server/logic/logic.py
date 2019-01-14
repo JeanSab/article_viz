@@ -2,12 +2,15 @@ import json
 import collections
 from datetime import datetime
 from enum import Enum, auto
+from flask_sqlalchemy import SQLAlchemy
 
+db = SQLAlchemy()
 
-class NewsOutlet():
-    def __init__(self, no, url):
-        self.name = no
-        self.url = url
+class NewsOutlet(db.Model):
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(20), unique=True, nullable=False)
+
 
 class NewsOutletNames(Enum):
     GUARDIAN = auto()
@@ -17,42 +20,66 @@ class NewsOutletNames(Enum):
     RTL = auto()
 
 
-class Article():
+class Article(db.Model):
 
-    def __init__(self, title, link, date, newsOutlet, tweets={}):
-        self.title = title
-        self.link = link
-        self.date = date
-        self.newsOutlet = newsOutlet
-        self.tweets = tweets
-
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100), unique=True, nullable=False)
+    link = db.Column(db.String(100), unique=True, nullable=False)
+    date = db.Column(db.DateTime)
+    newsOutlet = db.relationship('NewsOutlet')
+    tweets = db.relationship('tweet', backref="article")
 
     def __str__(self):
         return ("title: " + self.title + "\nlink: " + self.link + "\ndate: " + str(self.date) + "\ntweet count: " + str(len(self.tweets)))
 
 
-    @classmethod
-    def articleFromFile(cls, fileLoc, nwso):
-        with open(fileLoc, "r") as inFile:
-            data = json.load(inFile)
+    # @classmethod
+    # def articleFromFile(cls, fileLoc, nwso):
+    #     with open(fileLoc, "r") as inFile:
+    #         data = json.load(inFile)
+    #
+    #     article = cls(data["title"], data["link"], datetime.strptime(data["date"], "%Y-%m-%d %H:%M:%S"), nwso)
+    #
+    #     tweets = {}
+    #     for t in data["tweets"]:
+    #         tweets[t["id"]] = Tweet.fromData(t)
+    #
+    #     article.tweets = tweets
+    #
+    #     return article
 
-        article = cls(data["title"], data["link"], datetime.strptime(data["date"], "%Y-%m-%d %H:%M:%S"), nwso)
 
-        tweets = {}
-        for t in data["tweets"]:
-            tweets[t["id"]] = Tweet.fromData(t)
+class Tweet(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    created_at = db.Column(db.DateTime)
+    favorite_count = db.Column(db.Integer)
+    retweet_count = db.Column(db.Integer)
+    lang = db.Column(db.String("20"))
+    source = db.Column(db.String("20"))
+    text = db.Column(db.String("512"))
+    article_id = db.Column(db.Integer, db.ForeignKey('article.id'), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('twitter_user.id'), nullable=False)
 
-        article.tweets = tweets
-
-        return article
 
 
-class Tweet():
+class TwitterUser(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    created_at = db.Column(db.DateTime)
+    name = db.Column(db.String(50))
+    screen_name = db.Column(db.String(50))
+    description = db.Column(db.String(100))
+    followers_count = db.Column(db.Integer)
+    favourites_count = db.Column(db.Integer)
+    friends_count = db.Column(db.Integer)
+    statuses_count = db.Column(db.Integer)
+    lang = db.Column(db.String(20))
+    location = db.Column(db.String(50))
+    url = db.Column(db.String(50))
+    tweets = db.relationship('tweet', backref="twitter_user")
 
-    @classmethod
-    def fromData(cls, data):
 
-        f = collections.namedtuple("Tweet", data.keys())
-        f.__str__ = lambda s: str(s.text)
 
-        return f(*data.values())
+class _TwitterUrl():
+
+    def __init__(self, display_url, expanded_url, url):
+        pass

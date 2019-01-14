@@ -1,8 +1,12 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
+from logic.logic import db
 
 app = Flask(__name__)
 CORS(app)
+
+db.init_app(app)
+
 
 @app.route('/')
 def main_route():
