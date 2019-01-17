@@ -3,9 +3,15 @@ from flask_cors import CORS
 from logic.logic import db
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///./db/test.db'
 CORS(app)
 
 db.init_app(app)
+app.app_context().push()
+
+def tearDown(db):
+    db.session.remove()
+    db.drop_all()
 
 
 @app.route('/')
