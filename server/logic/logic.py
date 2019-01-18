@@ -27,8 +27,10 @@ class Article(db.Model):
     title = db.Column(db.String(100), unique=True, nullable=False)
     link = db.Column(db.String(100), unique=True, nullable=False)
     date = db.Column(db.DateTime)
+    txt_test = db.Column(db.String(10), nullable=False)
+
     news_outlet_id = db.Column(db.Integer, db.ForeignKey('news_outlet.id'), nullable=False)
-    #tweets = db.relationship('Tweet', backref="article", lazy=True)
+    tweets = db.relationship('Tweet', backref="article", lazy=True)
 
     # def __str__(self):
     #     return ("title: " + self.title + "\nlink: " + self.link + "\ndate: " + str(self.date) + "\ntweet count: " + str(len(self.tweets)))
@@ -64,17 +66,17 @@ class Tweet(db.Model):
 
 
 class TwitterUser(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    # created_at = db.Column(db.DateTime)
-    # name = db.Column(db.String(50))
-    # screen_name = db.Column(db.String(50))
-    # description = db.Column(db.String(100))
-    # followers_count = db.Column(db.Integer)
-    # favourites_count = db.Column(db.Integer)
-    # friends_count = db.Column(db.Integer)
-    # statuses_count = db.Column(db.Integer)
-    # lang = db.Column(db.String(20))
-    # location = db.Column(db.String(50))
-    # url = db.Column(db.String(50))
-    # verified = db.Column(db.Boolean)
-    # tweets = db.relationship('tweet', backref="twitter_user")
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    created_at = db.Column(db.DateTime)
+    name = db.Column(db.String(50))
+    screen_name = db.Column(db.String(50))
+    description = db.Column(db.String(100))
+    followers_count = db.Column(db.Integer)
+    favourites_count = db.Column(db.Integer)
+    friends_count = db.Column(db.Integer)
+    statuses_count = db.Column(db.Integer)
+    lang = db.Column(db.String(20))
+    location = db.Column(db.String(50))
+    url = db.Column(db.String(50))
+    verified = db.Column(db.Boolean)
+    tweets = db.relationship('Tweet', backref="twitter_user")

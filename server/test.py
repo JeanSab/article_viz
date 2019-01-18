@@ -17,7 +17,7 @@ for i in range(5):
 print("creating articles...")
 art = []
 for i in range(20):
-    art.append(Article(title="article {}".format(i), link="http://a{}".format(i), date=datetime.now()))
+    art.append(Article(title="article: {}".format(i), link="http://a{}".format(i), date=datetime.now(), txt_test="èéâïù@|éçî")) #èéâïù@|éçî
 
 print("adding articles to newsOutlet...")
 for a in art:
