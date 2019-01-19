@@ -60,8 +60,8 @@ class Tweet(db.Model):
     lang = db.Column(db.String(20))
     source = db.Column(db.String(20))
     text = db.Column(db.String(512))
-    article_id = db.Column(db.Integer, db.ForeignKey('article.id'), nullable=False)
-    user_id = db.Column(db.Integer, db.ForeignKey('twitter_user.id'), nullable=False)
+    article_id = db.Column(db.Integer, db.ForeignKey('article.id'))
+    user_id = db.Column(db.Integer, db.ForeignKey('twitter_user.id'))
 
 
 
