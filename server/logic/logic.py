@@ -27,7 +27,6 @@ class Article(db.Model):
     title = db.Column(db.String(100), unique=True, nullable=False)
     link = db.Column(db.String(100), unique=True, nullable=False)
     date = db.Column(db.DateTime)
-    txt_test = db.Column(db.String(10), nullable=False)
 
     news_outlet_id = db.Column(db.Integer, db.ForeignKey('news_outlet.id'), nullable=False)
     tweets = db.relationship('Tweet', backref="article", lazy=True)
@@ -53,7 +52,7 @@ class Article(db.Model):
 
 
 class Tweet(db.Model):
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    id = db.Column(db.Integer, primary_key=True)
     created_at = db.Column(db.DateTime)
     favorite_count = db.Column(db.Integer)
     retweet_count = db.Column(db.Integer)
@@ -66,7 +65,7 @@ class Tweet(db.Model):
 
 
 class TwitterUser(db.Model):
-    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    id = db.Column(db.Integer, primary_key=True)
     created_at = db.Column(db.DateTime)
     name = db.Column(db.String(50))
     screen_name = db.Column(db.String(50))
