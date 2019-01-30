@@ -18,18 +18,18 @@ class NewsOutlet(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(20), unique=True, nullable=False)
-    articles = db.relationship('Article', backref="news_outlet", lazy=True)
+    articles = db.relationship('Article', backref="news_outlet", lazy='dynamic')
 
 
 class Article(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    title = db.Column(db.String(100), unique=True, nullable=False)
+    title = db.Column(db.String(100), nullable=False)
     link = db.Column(db.String(100), unique=True, nullable=False)
     date = db.Column(db.DateTime)
 
     news_outlet_id = db.Column(db.Integer, db.ForeignKey('news_outlet.id'), nullable=False)
-    tweets = db.relationship('Tweet', backref="article", lazy=True)
+    tweets = db.relationship('Tweet', backref="article", lazy='dynamic')
 
     # def __str__(self):
     #     return ("title: " + self.title + "\nlink: " + self.link + "\ndate: " + str(self.date) + "\ntweet count: " + str(len(self.tweets)))
@@ -78,4 +78,4 @@ class TwitterUser(db.Model):
     location = db.Column(db.String(50))
     url = db.Column(db.String(50))
     verified = db.Column(db.Boolean)
-    tweets = db.relationship('Tweet', backref="twitter_user")
+    tweets = db.relationship('Tweet', backref="twitter_user", lazy='dynamic')
