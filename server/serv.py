@@ -9,6 +9,7 @@ CORS(app)
 db.init_app(app)
 app.app_context().push()
 
+
 def tearDown(db):
     db.session.remove()
     db.drop_all()
@@ -21,19 +22,19 @@ def main_route():
 
 
 @app.errorhandler(400)
-def page_not_found(e):
+def page_error(e):
     print(dict(e))
     return jsonify(status="error", error_type="400"), 400
 
 
 @app.errorhandler(404)
-def page_not_found(e):
+def bad_request(e):
     print(e)
     return jsonify(status="error", error_type="404"), 404
 
 
 @app.errorhandler(410)
-def internal_error(e):
+def page_gone(e):
     print(e)
     return jsonify(status="error", error_type="410"), 410
 
